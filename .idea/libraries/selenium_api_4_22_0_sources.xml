@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="selenium-api-4.22.0-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Libraries/testng-7.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/selenium-server-4.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Libraries/selenium-api-4.22.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/selenium-firefox-driver-4.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
