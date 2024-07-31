@@ -17,12 +17,13 @@ public class Topic_01_Check_Environment {
 
     @BeforeClass
     public void beforeClass() {
-        if (osName.contains("Windows")) {
-            System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
-        } else {
-            System.setProperty("webdriver.gecko.driver", projectPath + "/browserDrivers/geckodriver");
-        }
-
+        //Dành cho version Selenium 2., 3., vs duoi 4.11
+//        if (osName.contains("Windows")) {
+//            System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
+//        } else {
+//            System.setProperty("webdriver.gecko.driver", projectPath + "/browserDrivers/geckodriver");
+//        }
+//
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
