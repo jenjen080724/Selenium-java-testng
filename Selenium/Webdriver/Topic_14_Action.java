@@ -50,7 +50,7 @@ public class Topic_14_Action {
         }
 
     @Test
-    public void TC_03_VueJS() throws InterruptedException {
+    public void TC_03_Fahasa () throws InterruptedException {
         driver.get("https://www.fahasa.com/");
 
         action.moveToElement(driver.findElement(By.cssSelector("span.icon_menu"))).perform();
@@ -62,9 +62,6 @@ public class Topic_14_Action {
         driver.findElement(By.xpath("//div[@class='dropdown-menu-inner']//a[text()='Tiểu Thuyết']")).click();
 
         Assert.assertTrue(driver.findElement(By.xpath("//li[@class='category201']/strong[text()='Tiểu thuyết']")).isDisplayed());
-
-    }
-    public void TC_04_Toan() throws InterruptedException {
 
     }
 
